@@ -1,17 +1,17 @@
+
+
 void main(List<String> args) {
-  Set<String> shoppingList = {
-    "Rice",
-    "Potato",
-    "Beef",
+  Map<String, String> addressBook = {
+    "jahangir": "01750212100",
+    "shakil": "01758454772",
+    "manik": "01629994330"
   };
-  List<String> shoppingList2 = [
-    "Rice",
-    "Potato",
-    "Beef",
-    "Rice",
-  ];
-  // shoppingList.forEach((element) {
-  //   print(element);
+
+  // print(addressBook["jahangir"]);
+
+  // addressBook.forEach((key, value) {
+  //   print(key);
   // });
-  print(shoppingList2.toSet());
+  print(addressBook.isNotEmpty);
 }
+
